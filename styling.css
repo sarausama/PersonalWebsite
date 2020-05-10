@@ -1,0 +1,412 @@
+@media only screen and (min-width:1271px){
+  body {
+    margin:0;
+    padding:0;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #B9E3FF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+  }
+  li {
+    display: inline;
+  }
+  .navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    font-family: 'Delius Swash Caps';
+    font-weight: 700;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    color: Black;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: #007AE5;
+  }
+
+  .navbar a.active{
+    text-decoration: underline;
+    text-decoration-color: #007AE5;
+  }
+  #Home, #Skills, #Contact{
+    background-color: #E6E6FA;
+  }
+  #About, #Projects{
+    background-color: #F8FBE4;
+  }
+  #Home h1{
+    padding-top: 300px;
+    margin:0;
+    padding-left: 100px;
+    font-size: 100px;
+  }
+
+  #Home h6{
+    margin:0;
+    /* padding-left: 350px; */
+    padding-bottom: 321px;
+    padding-left: 24%;
+    font-size: 15px;
+  }
+
+  #first{
+    position:absolute;
+    top:20px;
+    right:25px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  #second{
+    position:absolute;
+    top:430px;
+    right:25px;
+    padding-bottom: 50px;
+  }
+
+  #About p{
+    float:right;
+    width: 40%;
+    padding-right: 25px;
+    font-size: 30px;
+    padding-top: 270px;
+  }
+
+  #third{
+    padding-top: 180px;
+    padding-left: 5%;
+    padding-bottom: 363px;
+    width:45%;
+  }
+
+  #fourth{
+    position:absolute;
+    top:1150px;
+    left:25px;
+    width:35%;
+  }
+
+  #fifth{
+    position:absolute;
+    top:1150px;
+    left:38%;
+    width:15%;
+  }
+
+  #Skills p{
+    width:30%;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-left: 25px;
+    font-size: 30px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  #sixth{
+    position:absolute;
+    right:525px;
+    top: 1900px;
+  }
+  #seventh{
+    position:absolute;
+    right:25px;
+    top: 1700px;
+  }
+  #eighth{
+    position:absolute;
+    right:25px;
+    top: 2000px;
+  }
+
+  #Projects h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight:bolder;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top: 160px;
+    padding-bottom: 20px;
+  }
+  #h1tetris, #h1snake, #h1minesweeper,#h1cgl,#h1hangman{
+    padding-top: 60px !important;
+  }
+  #Projects p{
+    font-size: 30px;
+  }
+  #projectstitle{
+    display: none;
+  }
+  #ninth{
+    padding-left: 140px;
+    padding-top: 30px;
+  }
+
+  #Tetris{
+    float: right;
+    width:50%;
+    padding-right: 45px;
+    padding-top: 100px;
+  }
+
+  #tenth{
+    float:right;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-right: 45px;
+  }
+
+  #Snake{
+    width:50%;
+    padding-top: 60px;
+    padding-left: 45px;
+  }
+
+  #eleventh{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 45px;
+  }
+  #lsnake{
+    font-size: 30px;
+    padding-left: 250px;
+    padding-bottom: 60px;
+  }
+  #n2048{
+    width:50%;
+    float: right;
+    padding-right: 45px;
+    padding-top: 100px;
+  }
+
+  #Minesweeper{
+    width:40%;
+    padding-top: 100px;
+    /* padding-bottom: 160px; */
+    padding-left: 45px;
+  }
+  #lminesweeper{
+    font-size: 30px;
+    padding-left: 250px;
+    padding-bottom: 60px;
+  }
+  #fourteenth{
+    float:right;
+    width:50%;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-right: 45px;
+  }
+
+  #Cipher{
+    width:50%;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    padding-left: 45px;
+  }
+
+  #twelfth{
+    float:right;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-right: 45px;
+  }
+
+  #CGL{
+    width:50%;
+    float: right;
+    padding-right: 45px;
+    padding-top: 100px;
+  }
+
+  #thirteenth{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 45px;
+  }
+  #fifteenth{
+    padding-top: 100px;
+    padding-left: 145px;
+    width: 30%;
+    padding-bottom: 100px;
+  }
+  #hangman{
+    width:50%;
+    float: right;
+    padding-right: 45px;
+    padding-top: 200px;
+  }
+  #Projects, #Contact{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #Contact{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 350px;
+    padding-bottom:350px;
+  }
+
+  #ltetris{
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    top:2920px;
+    right:330px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #007AE5;
+    border-radius: 15px;
+    background-color: #007AE5;
+  }
+
+  #lsnake{
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    top:3580px;
+    left:270px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    border: 2px solid #007AE5;
+    border-radius: 15px;
+    background-color: #007AE5;
+  }
+
+  #l2048{
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    top:4270px;
+    right:250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    border: 2px solid #007AE5;
+    border-radius: 15px;
+    background-color: #007AE5;
+  }
+
+  #lminesweeper{
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    top:4920px;
+    left:270px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    border: 2px solid #007AE5;
+    border-radius: 15px;
+    background-color: #007AE5;
+  }
+}
+
+@media only screen and (max-width:1270px){
+  body {
+    margin:0;
+    padding:0;
+    background-color: #E6E6FA;
+  }
+  .navbar{
+    display: none;
+  }
+  #Home h1{
+    width:100%;
+    background: Black;
+    text-align: center;
+    color: White;
+    padding-top: 25px;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #Home h6{
+    width:100%;
+    background: Black;
+    text-align: center;
+    color: White;
+    padding-bottom: 25px;
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  p{
+    text-align: left;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 25px;
+  }
+  #fourth{
+    width:80%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #projectstitle{
+    width:100%;
+    background: #B9E3FF;
+    text-align: center;
+    color: Black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 50px !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Abhaya Libre !important;
+  }
+  #Projects{
+    text-align: center;
+  }
+  #Projects h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Delius Swash Caps';
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #ninth,#tenth,#eleventh,#twelfth,#thirteenth,#fourteenth{
+    width:80%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #Projects a{
+    text-decoration: none;
+    align-content: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    border: 2px solid #007AE5;
+    border-radius: 15px;
+    background-color: #007AE5;
+  }
+  #first,#second,#third,#fifth,#sixth,#seventh,#eighth{
+    display: none;
+  }
+
+  #Contact{
+    width:100%;
+    background: Black;
+    color: White;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #Contact p{
+      font-size: 20px;
+      text-align: center;
+  }
+}
